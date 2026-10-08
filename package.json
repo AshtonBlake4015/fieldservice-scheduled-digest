@@ -1,0 +1,8 @@
+{
+  "name": "fieldservice-digest-infrai",
+  "private": true,
+  "type": "module",
+  "scripts": {"typecheck": "tsc --noEmit", "start": "tsx src/main.ts", "test": "tsx src/digest.test.ts"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"tsx": "^4.19.0", "typescript": "^5.6.3", "@types/node": "^22.0.0"}
+}
